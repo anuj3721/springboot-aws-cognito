@@ -8,6 +8,9 @@
 1. Setup AWS Cognito user pool
 2. Create a .env file having `COGNITO_JWKS_URL`
 
+### Run the app - 
+`mvn spring-boot:run`
+
 ### Test the sample API to verify JWT data
 
 ### Swagger: 
