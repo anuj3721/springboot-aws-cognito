@@ -1,0 +1,8 @@
+@baseUrl = http://localhost:8080
+
+## HealthCheck API
+GET {{baseUrl}}/healthCheck HTTP/1.1
+
+## API to test JWT data
+GET {{baseUrl}}/auth/data HTTP/1.1
+Token:
